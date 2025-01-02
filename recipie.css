@@ -1,0 +1,53 @@
+
+.nutrition-item {
+display: flex;
+justify-content: flex-start;
+margin-bottom: 10px;
+margin-left: 40px;
+/* margin-right:400px ; */
+}
+
+/* .nutrition-value {
+text-align: right;
+} */
+
+
+.nutrition-item span:first-child { 
+min-width: 400px; /* Set a minimum width for the first span */
+}
+.nutrition-value {
+    color: brown;
+    font-weight: bold;
+}
+
+
+    
+     li span {
+         font-weight: bold;
+     }
+
+     h2 {
+         color: brown}
+img{
+    max-height: 100vh;
+max-width: 100%;
+object-fit: contain;
+}
+
+h1{
+    font-size: 4rem;
+    font-style: Young Serif;
+}
+body{
+    margin: 30px;
+}
+h4{
+    font-weight: bold;
+color:hsl(332, 51%, 32%);
+}
+.prep{
+    background-color: hsl(330, 100%, 98%);
+}
+li{
+    margin-bottom: 10px;
+}
